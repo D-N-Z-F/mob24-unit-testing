@@ -17,4 +17,5 @@ class HomeViewModel: ViewModel() {
             message.value = "HelloStateFlow"
         }
     }
+    fun greet(): String = "Hello Unit Test"
 }
