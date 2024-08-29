@@ -7,7 +7,7 @@ jobs:
   run-unit-test:
     executor:
       name: android/android-docker
-      tag: 2022.08.1
+      tag: "2024.08"
     steps:
       - checkout
       - run: chmod +x ./gradlew
