@@ -60,6 +60,9 @@ dependencies {
     // Hilt Dependency Injection
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
+
+    // To use UnconfinedTestDispatcher
+    testImplementation(libs.kotlinx.coroutines.test)
 }
 
 kapt {
